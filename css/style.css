@@ -15,7 +15,7 @@ body {
 /* Cabeçalho */
 .cabeçalho {
     background-color: #5e4b8b;
-
+    padding-bottom: 30px;
 }
 
 .img-logo {
@@ -40,7 +40,7 @@ header nav ul {
 
 header nav ul li {
     margin-left: 20px;
-    margin-top: -px;
+    margin-top: -30px;
 }
 
 header nav ul li a {
@@ -77,27 +77,87 @@ header nav ul li a:hover {
 /* Seção Produtos */
 .produtos {
     display: flex;
-    justify-content: center;
     gap: 20px;
     padding: 50px 20px;
     background-color: #f9f9f9;
 }
 
 .produtos h2 {
-    font-size: 2rem;
-    text-align: center;
-    width: 100%;
-    margin-bottom: 30px;
+    font-size: 30px;
+    width: 200%;
+    margin-bottom: 100px;
 }
 
 .card {
     background-color: white;
     padding: 20px;
-    border-radius: 10px;
+    border-radius: 20px;
     text-align: center;
-    width: 300px;
+    width: ;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-left: 85px;
 }
+
+.card-1 {
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    width: auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-left: 70px;
+}
+
+.card-2 {
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    width: auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-left: 70px;
+}
+
+.card-3 {
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    width: auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-left: 70px;
+}
+
+.card-4 {
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    width: auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-left: 70px;
+}
+
+.card-5 {
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    width: auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-left: 70px;
+}
+
+.card-6 {
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    width: auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-left: 70px;
+}
+
 
 .card img {
     width: 100%;
@@ -106,14 +166,82 @@ header nav ul li a:hover {
     margin-bottom: 20px;
 }
 
+.card-1 img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.card-2 img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.card-3 img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.card-4 img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.card-5 img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.card-6 img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+
 .card h3 {
     font-size: 1.5rem;
     margin-bottom: 10px;
 }
 
-.card p {
-    font-size: 1rem;
-    color: #555;
+.card-1 h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.card-2 h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.card-3 h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.card-4 h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.card-5 h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.card-6 h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
 }
 
 /* Seção Contato */
