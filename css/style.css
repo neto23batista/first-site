@@ -15,9 +15,7 @@ body {
 /* Cabeçalho */
 header {
     background-color: #5e4b8b;
-    padding: 10px 20px;
-    display: flex;
-    justify-content: space-between;
+
 }
 
 .img-logo {
@@ -28,9 +26,10 @@ header {
 }
 
 .title {
+    right: 50px;
     font-size: 30px;
     color: white;
-    bottom: 20px;
+    bottom: 50px;
 }
 
 header nav ul {
