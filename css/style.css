@@ -22,33 +22,37 @@ body {
     width: 100px;
     /*altura*/
     margin-top: 0px;
-    margin-left: -25px;
+    margin-left: 0px;
 }
 
 .title {
-    right: 50px;
     font-size: 30px;
     color: white;
-    bottom: 50px;
+    margin-left: 110px;
+    margin-top: -70px;
 }
 
 header nav ul {
     list-style: none;
     display: flex;
+    margin-left: 1300px;
 }
 
 header nav ul li {
     margin-left: 20px;
+    margin-top: -px;
 }
 
 header nav ul li a {
     text-decoration: none;
     color: white;
-    font-size: 1.1rem;
+    font-size: 25px;
+    
 }
 
 header nav ul li a:hover {
     text-decoration: underline;
+    margin-top: 20px;
 }
 
 /* Seção Sobre */
