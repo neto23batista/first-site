@@ -1,23 +1,96 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <link rel="stylesheet" href="css/style.css"> 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Frazao Acateria</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Frazão Açaiteria</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <ul>
-        <li>
-            <img src="img/e2b0fdc6-7df9-4eaa-b51e-84e45c565504.png"  class="img-logo">
-        </li>
-    </ul>
-    <div class="texto"> <!-- Caixa -->
-        <h1 class="titulo">FRAZÃO AÇAITERIA</h1> <!-- Título -->
-        <p class="descricao">Stranger Things é uma série de ficção científica criada pelos irmãos Duffer para a
-            Netflix. Situada na cidade ficcional de Hawkins, Indiana, a trama começa no ano de 1983 com o
-            desaparecimento do garoto Will.</p>
-        <a class="link-info">Mais Informações</a>
-    </div>
+    <!-- Cabeçalho -->
+    <header class="cabeçalho">
+        <div class="logo">
+            <img src="img/logo.png" class="img-logo">
+            <h1 class="title">Frazão Açaiteria</h1>
+        </div>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#sobre">Sobre</a>
+                </li>
+                <li>
+                    <a href="#produtos">Produtos</a>
+                </li>
+                <li>
+                    <a href="#contato">Contato</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Seção sobre -->
+    <section id="sobre" class="sobre">
+        <h2>Bem-vindo à Frazão Açaiteria!</h2>
+        <p>Oferecemos o melhor açaí da cidade, com opções de toppings deliciosos para você criar a mistura perfeita, com açai 100% puro, sem conservantes.</p>
+    </section>
+
+    <!-- Seção Produtos -->
+    <section id="produtos" class="produtos">
+        <h2>Nossos<br><br>Produtos</h2>
+        <div class="card">
+            <img src="img/img 1.jpg" alt="Açaí Tradicional">
+            <h3>Açaí Tradicional</h3>
+            <p>Açaí puro com granola e mel.</p>
+        </div>
+        <div class="card-1">
+            <img src="img/img 2.jpg" alt="Açaí com Frutas">
+            <h3>Açaí com Frutas</h3>
+            <p>Açaí acompanhado de morangos, banana e manga.</p>
+        </div>
+        <div class="card-2">
+            <img src="img/img 3.jpg" alt="Açaí Nutella">
+            <h3>Açaí Nutella</h3>
+            <p>Açaí com Nutella e pedaços de biscoito.</p>
+        </div>
+        <div class="card-3">
+            <img src="img/img 4.jpg" alt="Açaí Nutella">
+            <h3>Açaí Nutella</h3>
+            <p>Açaí com Nutella e pedaços de biscoito.</p>
+        </div>
+        <div class="card-4">
+            <img src="img/img 5.jpg" alt="Açaí Nutella">
+            <h3>Açaí Nutella</h3>
+            <p>Açaí com Nutella e pedaços de biscoito.</p>
+        </div>
+        <div class="card-5">
+            <img src="img/img 6.jpg" alt="Açaí Nutella">
+            <h3>Açaí Nutella</h3>
+            <p>Açaí com Nutella e pedaços de biscoito.</p>
+        </div>
+        <div class="card-6">
+            <img src="img/img 7.jpg" alt="Açaí Nutella">
+            <h3>Açaí Nutella</h3>
+            <p>Açaí com Nutella e pedaços de biscoito.</p>
+        </div>
+    </section>
+
+    <!-- Seção Contato -->
+    <section id="contato" class="contato">
+        <h2>Entre em Contato</h2>
+        <form id="form-contato">
+            <input type="text" id="nome" placeholder="Seu Nome" required>
+            <input type="email" id="email" placeholder="Seu Email" required>
+            <textarea id="mensagem" placeholder="Sua Mensagem" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2024 Açaiteria Delícia | Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="js/script_1.js"></script>
 </body>
 </html>
