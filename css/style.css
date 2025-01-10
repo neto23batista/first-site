@@ -15,21 +15,21 @@ body {
 /* Cabeçalho */
 .cabeçalho {
     background-color: white;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
 }
 
 .img-logo {
-    width: 100px;
+    width: 60px;
     /*altura*/
     margin-top: 0px;
     margin-left: 0px;
 }
 
 .title {
-    font-size: 30px;
+    font-size: 25px;
     color: rgb(59, 22, 119);
-    margin-left: 110px;
-    margin-top: -70px;
+    margin-left: 80px;
+    margin-top: -45px;
 }
 
 header nav ul {
@@ -39,8 +39,8 @@ header nav ul {
 }
 
 header nav ul li {
-    margin-left: 50px;
-    margin-top: -30px;
+    margin-left: 65px;
+    margin-top: -25px;
 }
 
 header nav ul li a {
@@ -95,7 +95,7 @@ header nav ul li a:hover {
     text-align: center;
     width: 2000px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    margin-left: -70px;
+    margin-left: 20px;
 }
 
 .card-1 {
@@ -118,47 +118,6 @@ header nav ul li a:hover {
     margin-left: 20px;
 }
 
-.card-3 {
-    background-color: white;
-    padding: 20px;
-    border-radius: 20px;
-    text-align: center;
-    width: 2000px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    margin-left: 20px;
-}
-
-.card-4 {
-    background-color: white;
-    padding: 20px;
-    border-radius: 20px;
-    text-align: center;
-    width: 2000px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    margin-left: 20px;
-}
-
-.card-5 {
-    background-color: white;
-    padding: 20px;
-    border-radius: 20px;
-    text-align: center;
-    width: 2000px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    margin-left: 20px;
-}
-
-.card-6 {
-    background-color: white;
-    padding: 20px;
-    border-radius: 20px;
-    text-align: center;
-    width: 2000px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    margin-left: 20px;
-}
-
-
 .card img {
     width: 100%;
     height: auto;
@@ -180,35 +139,6 @@ header nav ul li a:hover {
     margin-bottom: 20px;
 }
 
-.card-3 img {
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
-    margin-bottom: 20px;
-}
-
-.card-4 img {
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
-    margin-bottom: 20px;
-}
-
-.card-5 img {
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
-    margin-bottom: 20px;
-}
-
-.card-6 img {
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
-    margin-bottom: 20px;
-}
-
-
 .card h3 {
     font-size: 1.5rem;
     margin-bottom: 10px;
@@ -220,26 +150,6 @@ header nav ul li a:hover {
 }
 
 .card-2 h3 {
-    font-size: 1.5rem;
-    margin-bottom: 10px;
-}
-
-.card-3 h3 {
-    font-size: 1.5rem;
-    margin-bottom: 10px;
-}
-
-.card-4 h3 {
-    font-size: 1.5rem;
-    margin-bottom: 10px;
-}
-
-.card-5 h3 {
-    font-size: 1.5rem;
-    margin-bottom: 10px;
-}
-
-.card-6 h3 {
     font-size: 1.5rem;
     margin-bottom: 10px;
 }
@@ -256,7 +166,7 @@ header nav ul li a:hover {
     display: flex;
     flex-direction: column;
     gap: 15px;
-    max-width: 600px;
+    max-width: 400px;
     margin: 0 auto;
 }
 
@@ -271,7 +181,7 @@ header nav ul li a:hover {
 .contato button {
     padding: 10px 20px;
     font-size: 1.1rem;
-    background-color: #d07f2e;
+    background-color: #7a2ed0;
     color: white;
     border: none;
     border-radius: 5px;
