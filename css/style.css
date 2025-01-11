@@ -15,7 +15,7 @@ body {
 /* Cabeçalho */
 .cabeçalho {
     background-color: white;
-    padding-bottom: 20px;
+    padding-bottom: 15px;
 }
 
 .img-logo {
@@ -35,7 +35,7 @@ body {
 header nav ul {
     list-style: none;
     display: flex;
-    margin-left: 800px;
+    margin-left: 850px;
 }
 
 header nav ul li {
@@ -63,12 +63,12 @@ header nav ul li a:hover {
 }
 
 .sobre h2 {
-    font-size: 2rem;
+    font-size: 30px;
     margin-bottom: 20px;
 }
 
 .sobre p {
-    font-size: 1.1rem;
+    font-size: 15px;
     line-height: 1.6;
     max-width: 700px;
     margin: 0 auto;
@@ -84,8 +84,8 @@ header nav ul li a:hover {
 
 .produtos h2 {
     font-size: 30px;
-    width: 200%;
-    margin-bottom: 100px;
+    width: 110px;
+    margin-bottom: 200px;
 }
 
 .card {
@@ -93,7 +93,7 @@ header nav ul li a:hover {
     padding: 20px;
     border-radius: 20px;
     text-align: center;
-    width: 2000px;
+    width: 250px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     margin-left: 20px;
 }
@@ -103,7 +103,7 @@ header nav ul li a:hover {
     padding: 20px;
     border-radius: 20px;
     text-align: center;
-    width: 2000px;
+    width: 250px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     margin-left: 20px;
 }
@@ -113,7 +113,7 @@ header nav ul li a:hover {
     padding: 20px;
     border-radius: 20px;
     text-align: center;
-    width: 2000px;
+    width: 250px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     margin-left: 20px;
 }
